@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "Pexa Explorer",
 
-  "address": "127.0.0.1:3001",
+  "address": "easyxpool.tk:445",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "PexaCoin",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "PEXA",
 
   // logo
   "logo": "/images/logo.png",
@@ -29,13 +29,13 @@
   "theme": "Cyborg",
 
   // port to listen for requests on.
-  "port" : 3001,
+  "port" : 2100,
 
   // database settings (MongoDB)
   "dbsettings": {
     "user": "iquidus",
     "password": "3xp!0reR",
-    "database": "explorerdb",
+    "database": "explorerdb-pexa",
     "address": "localhost",
     "port": 27017
   },
@@ -47,13 +47,13 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "user": "darkcoinrpc",
-    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "port": 6005,
+    "user": "kthx3094590345903",
+    "pass": "WtfHax18234234234234635636"
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 100,
 
   // language settings
   "locale": "locale/en.json",
@@ -61,9 +61,9 @@
   // menu settings
   "display": {
     "api": true,
-    "markets": true,
+    "markets": false,
     "richlist": true,
-    "twitter": true,
+    "twitter": false,
     "facebook": false,
     "googleplus": false,
     "youtube": false,
@@ -76,15 +76,15 @@
   "index": {
     "show_hashrate": true,
     "difficulty": "POW",
-    "last_txs": 100
+    "last_txs": 1000
   },
 
   // ensure links on API page are valid
   "api": {
     "blockindex": 1337,
-    "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
-    "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
-    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+    "blockhash": "0000000000c7582aadc1ebbe9fe7c271ae97f98de568439aaf5a5f16273c63b9",
+    "txhash": "1b8aa8690168ae4786f2a076d8d930f3a5d9b8913829969064acb983a2a5b68b",
+    "address": "XZuXhTqbYwW5RyirZ3ekmDgTe4H3JNPSLT"
   },
 
   // market settings
@@ -93,7 +93,7 @@
   "markets": {
     "coin": "JBS",
     "exchange": "BTC",
-    "enabled": ["bittrex"],
+    "enabled": [],
     "cryptopia_id": "1658",
     "ccex_key" : "Get-Your-Own-Key",
     "default": "bittrex"
@@ -129,7 +129,7 @@
   "heavy": false,
 
   //amount of txs to index per address (stores latest n txs)
-  "txcount": 100,
+  "txcount": 1000,
 
   //show total sent & received on address page (set false if PoS)
   "show_sent_received": true,
